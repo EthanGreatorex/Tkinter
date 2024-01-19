@@ -1,6 +1,6 @@
 Welcome to my Tkinter projects!
 
-The tkinter apps:
+The Tkinter apps:
  - Countdown
  - Text editor
  - Secure password
