@@ -18,20 +18,20 @@ def close_app():
 
 def open_app(appChoice):
   if appChoice == "countdown":
-    file_path = "C:\\Users\\Infer\\Desktop\\AppLinks\\countdown-app.exe - Shortcut.lnk"
+    file_path = "HIDDEN"
     subprocess.run(["start","",file_path],shell=True)
     # After we have opened the app close the app hub
     close_app()
   elif appChoice == "textEditor":
-    file_path = "C:\\Users\\Infer\\Desktop\\AppLinks\\TextEditor.exe - Shortcut.lnk"
+    file_path = "HIDDEN"
     subprocess.run(["start","",file_path],shell=True)
     close_app()
   elif appChoice == "aiChat":
-    file_path = "C:\\Users\\Infer\\Desktop\\AppLinks\\Ai-chat.exe - Shortcut.lnk"
+    file_path = "HIDDEN"
     subprocess.run(["start","",file_path],shell=True)
     close_app()
   elif appChoice == "password":
-    file_path = "C:\\Users\\Infer\\Desktop\\AppLinks\\Secure-password.exe - Shortcut.lnk"
+    file_path = "HIDDEN"
     subprocess.run(["start","",file_path],shell=True)
     close_app()
 
